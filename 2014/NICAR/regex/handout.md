@@ -1,13 +1,13 @@
 # RegEx Handout
 
 ## Text Block 1:
-[2012 Nationals Lineup, Sort Of](https://gitorious.org/talks-and-teaching/talks/raw/a64f5d1e465fa1e35d418a7f76da74278682ea32:NICAR2014/regex/sample%20files/Sample%20Text%202012%20Nationals.txt) |
+[2012 Nationals Lineup, Sort Of](/talks/2014/NICAR/regex/sample files/Sample Text 2012 Nationals.txt) |
 <http://rubular.com/r/NddU4mCdk0>   
 **Search String:**
 `NAME: ([-\.\w ]*)POS: ([A-Z]{2}) AGE: (\d+) WT: (\d+) BORN: ([\w. ]+), ([A-Z]{2}) SALARY: (\d+|N\/A)`  
 
 ## Text Block 2:
-[A Bunch of Random Phone Numbers](https://gitorious.org/talks-and-teaching/talks/raw/a64f5d1e465fa1e35d418a7f76da74278682ea32:NICAR2014/regex/sample%20files/Sample%20Text%20Phone%20Numbers.txt) | <http://regex101.com/r/mB1bF0>
+[A Bunch of Random Phone Numbers](/talks/2014/NICAR/regex/sample files/Sample Text Phone Numbers.txt) | <http://regex101.com/r/mB1bF0>
 **Search String**   
 `([0-9]{3})[-. )\/]*([0-9]{3})\D*([0-9]{4})`  
 **Better Search String**
@@ -18,8 +18,6 @@
 
 ##Very Useful Links
 <http://rubular.com/> and <http://regex101.com>
-
-Zed Shaw's <http://regex.learncodethehardway.org/> Learn Regex The Hard Way will make you an expert  
 
 Dan Nguyen is awesome. His book <https://leanpub.com/bastards-regexes>, The Bastards Book of Regular Expressions is probably also awesome.  
 
