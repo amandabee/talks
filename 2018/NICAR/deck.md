@@ -2,6 +2,8 @@
 
 Amanda Hickman, Chrys Wu, Kennedy Elliott
 
+<https://etherpad.opennews.org/p/regex>
+
 NOTES:
 
 I teach data reporting at UC Berkeley and am working on some yet-to-be-unveiled investigative data projects. This is almost entirely a wholesale repeat of a workshop I lead in 2014 -- Regular expressions don't change that much. (If I'm being honest my heart is still at CUNY.) The thing I'm proudest of right now is that I successfully lobbied the Unicode Consortium Emoji Subcommittee to add a safety pin, ball of yarn and spool to your keyboards. They rejected the needle and thread but I'm not a quitter.
@@ -9,6 +11,8 @@ I teach data reporting at UC Berkeley and am working on some yet-to-be-unveiled 
 --v--
 
 [![Regular Expression Cheatsheet](cheatsheet.png)](2018/NICAR/cheatsheet.pdf)
+
+
 
 NOTES:
 
@@ -24,14 +28,12 @@ I even made you a little [cheatsheet](2018/NICAR/cheatsheet.pdf). Once upon a ti
 
 ### RegEx
 
-![Regular expressions are a total superpower.](/talks/2014/NICAR/regex/xkcd_regular_expressions.png)
-
-TODO: get full URL for xkcd
+[![Regular expressions are a total superpower.](/talks/2014/NICAR/regex/xkcd_regular_expressions.png)](https://xkcd.com/208/)
 
 It will shock you to learn that Wikipedia has an extensive and thorough history of <u>[regular expressions](http://en.wikipedia.org/wiki/Regular_expression)</u>.
 
 NOTES:
-It will shock you to learn that Wikipedia has an extensive and thorough history of [regular expressions](http://en.wikipedia.org/wiki/Regular_expression).
+Wikipedia has an extensive and thorough history of [regular expressions](http://en.wikipedia.org/wiki/Regular_expression). It's good.
 
 The first awesome thing about regular expressions is that they're not actually regular. When you start getting fancy you'll start to discover that applications can vary subtly in their implementation.
 
@@ -86,13 +88,13 @@ So I want us to start by walking through how we can turn that into something clo
 
     NAME: \w*    # Not a bad start.  
 
+<http://rubular.com/r/OCClBeRKQi>
+
 
 
 NOTES:
 
 Start with the name. We're going to walk through this together and you should sketch out on a napkin how you think we can solve each piece of the puzzle.
-
-TO DO: check the Rubular URLS
 
 <http://rubular.com/r/OCClBeRKQi>
 
@@ -124,6 +126,7 @@ But we want to be able to make replacements, so we're going to start grouping th
 
     NAME: (\w*[-\w .]*\w*[ ]*) POS: ([A-Z]{2}) AGE: (\d\d) WT: (\d{3}) BORN: .* SALARY: (\d+|N\/A)
 
+<http://rubular.com/r/lmLv0Igsdo> | <https://regex101.com/r/vS5eT3/1>
 
 NOTES:
 
@@ -135,9 +138,15 @@ TODO: Why switch between Regex101 and Rubular?
 
 --v--
 
-### Homework!
+
+
+[![How are we feeling about regex?](xkcd_1171_perl_problems.png)](https://xkcd.com/1171/)
+
+NOTES:
 
 Can you convert dates from 1/12/99 to 1999-12-01.
+
+
 
 -----
 
