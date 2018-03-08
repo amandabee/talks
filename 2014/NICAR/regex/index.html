@@ -1,12 +1,12 @@
 <!doctype html>
-<!-- Code courtesy of https://github.com/bartaz/impress.js --> 
+<!-- Code courtesy of https://github.com/bartaz/impress.js -->
 <html lang="en">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=1024" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <title>Regular Expressions | NICAR 2014 | Amanda Hickman @amandabee</title>
-    
+
     <meta name="description" content="Course Design" />
     <meta name="author" content="Amanda Hickman" />
 
@@ -18,12 +18,12 @@
     	pre {font-size: 32px; font-family: monospaced}
     	.light {color: #AAA; font-style: italic;}
     	h2 { color:  rgb(13, 54, 146); font-weight: 600; }
-       
-//<!-- CUNY Blue: 13, 54, 146 
+
+//<!-- CUNY Blue: 13, 54, 146
 //     CUNY Orange: 255, 141, 19
 //     -->
     </style>
-    
+
 </head>
 <body class="impress-not-supported">
 
@@ -36,14 +36,14 @@
         <q>
             <h1>Regular Expressions</h1>
             <img src="../cuny_square_RGB_orange.jpg" alt="CUNY logo" style="float: left; padding: 0 15px 0 0;" />
-            <h2>Amanda Hickman</h2>    
+            <h2>Amanda Hickman</h2>
             <h3>CUNY Graduate School of Journalism</h3>
-        </q>    
+        </q>
     </div>
     <div id="Nutshell" class="step slide" data-x="600" data-y="-1800">
 	    <q>
             <img src="../cuny_square_RGB_orange.jpg" alt="CUNY logo" style="float: left; padding: 0 15px 0 0;" />
-            <h2>@amandabee</h2>    
+            <h2>@amandabee</h2>
             <h3>@cunyjschool</h3>
             <a href="http://xkcd.com/208/"><img src="xkcd_regular_expressions.png" alt="XKCD on Regex" /></a><!-- https://xkcd.com/1313/ or https://xkcd.com/208/ -->
         </q>
@@ -147,7 +147,7 @@
 	      whitespace in regex; <code>o</code> perform #{...} substitutions only once</p></td></tr>
       </table>
        <p><b>Strings</b> just means a bunch of characters strung together; <b>Characters</b> are just letters and numbers and curly braces and plus signs. </p>
-       
+
     </div>
     <div class="step slide" data-x="3000" data-y="-1800">
         <p>James, Jim, Jimmy ...</p>
@@ -155,8 +155,8 @@
         <span class="substep">{0,2}</span>
         <span class="substep"></span></center></q>
         <span class="substep">Jimy, Jimm, Jimmm, Jimym
-        
-        
+
+
     </div>
 
     <div id="Nationals" class="wide step" data-x="-800" data-y="-1000" data-scale="1">
@@ -169,7 +169,7 @@ NAME: Mike Gonzalez POS: RP AGE: 34 WT: 215 BORN: Robstown, TX SALARY: N/A
 NAME: Ryan P. Mattheus POS: RP AGE: 28 WT: 215 BORN: Sacramento, CA SALARY: 481000
 NAME: Craig Stammen POS: RP AGE: 28 WT: 200 BORN: Coldwater, OH SALARY: 485000
 NAME: Drew Storen POS: RP AGE: 25 WT: 180 BORN: Indianapolis, IN SALARY: 498750
-NAME: Jordan Q. Zimmermann POS: SP AGE: 26 WT: 218 BORN: Auburndale, WI SALARY: 2300000</pre>    	
+NAME: Jordan Q. Zimmermann POS: SP AGE: 26 WT: 218 BORN: Auburndale, WI SALARY: 2300000</pre>
     </div>
     <div  class="step slide" data-x="800" data-y="-1000">
 <pre>Sean Burnett, RP, 30, 200, Dunedin, FL, 2350000
@@ -190,13 +190,13 @@ Jordan Q. Zimmermann, SP, 26, 218, Auburndale, WI, 2300000</pre>
 NAME: Sean Burnett POS: RP AGE: ...
 NAME: Tyler Clippard POS: RP AG ...</pre>
     <p>&nbsp;</p>
-    
+
     <q><span class="substep">NAME: </span><span class="substep">\w*</span><span class="substep"> \w*</span></q>
     <q><span class="substep">NAME: [<span class="substep">-</span>\w ]*</span></q>
-    
+
     </div>
-    
-    <div  class="step slide" data-x="-800" data-y="-200">     
+
+    <div  class="step slide" data-x="-800" data-y="-200">
     	<pre>310-808-5243
 (415) 846-1688
 (720) 318-9049
@@ -216,17 +216,17 @@ NAME: Tyler Clippard POS: RP AG ...</pre>
 323-816-9613
 323/816.7010</pre>
     </div>
-    
+
     <div class="step" data-x="0" data-y="-600" data-rotate="-90">
         <p><a href="http://rubular.com">Rubular</a> and <a href="http://regex101.com">RegEx 101</a></p>
     </div>
     <div  class="step slide" data-x="800" data-y="-200">
-    <q></q>        
+    <q></q>
     </div>
     <div class="step slide" data-x="-800" data-y="600">
         <a href="http://xkcd.com/1171/"><img src="http://imgs.xkcd.com/comics/perl_problems.png" alt="XKCD on Regex" /></a><!-- https://xkcd.com/1313/ or https://xkcd.com/208/ -->
 		<ul>
-		    <li>Zed Shaw's <a href="http://regex.learncodethehardway.org/">Learn Regex The Hard Way</a> will make you an expert.</li><br />
+
 
 		    <li>Dan Nguyen's <a href="https://leanpub.com/bastards-regexes">The Bastards Book of Regular Expressions</a> is probably also awesome.</li><br />
 
@@ -234,7 +234,7 @@ NAME: Tyler Clippard POS: RP AG ...</pre>
 
 		    <li><a href="http://www.rexegg.com/regex-lookarounds.html">Lookaheads</a> will make your brain hurt a little, but that doesn't mean they aren't worth understanding.</li>
         </ul>
-    
+
     </div>
     <div id="overview" class="step slide"  data-scale="6"> </div>
 
@@ -244,7 +244,7 @@ NAME: Tyler Clippard POS: RP AG ...</pre>
     <p>Use the spacebar or arrow keys to navigate</p>
 </div>
 <script>
-if ("ontouchstart" in document.documentElement) { 
+if ("ontouchstart" in document.documentElement) {
     document.querySelector(".hint").innerHTML = "<p>Tap on the left or right to navigate</p>";
 }
 </script>
@@ -267,6 +267,3 @@ if ("ontouchstart" in document.documentElement) {
 
 </body>
 </html>
-
-
-
