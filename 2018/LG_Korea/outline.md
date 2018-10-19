@@ -19,4 +19,12 @@ How to bring innovation and creative experimentation into your newsroom effectiv
     + BuzzFeed does still offer fellowships but they're much more tightly integrated into existing teams.
     + We established an emerging technology group that is more dynamic and structured. If you as a reporter or an engineer want to experiment with something like Facebook Messenger bots or ... anything really ... there's a methodology for defining a quick experiment, assessing it, and making a decision about whether or not to operationalize it. And then for dedicating staff time.
 
-It's very chic, in Silicon Valley, to talk about "failing fast". What I think that really means is that you should be designing experimental projects so that it is quickly clear whether or not they're going to fly. "Failure" doesn't mean crashing and burning.
+It's very chic, in Silicon Valley, to talk about "failing fast". What I think that really means is that you should be designing experimental projects so that it is quickly clear whether or no
+
+## Current State of Data Journalism
+A round up of projects and tools that journalists are using now to do really smart data projects. We'll look at some great data journalism, talk about what makes it work,
+
+
+## Revenue Streams, Audience, and Membershp
+
+We decided to skip this. If it comes up I can talk about it, but broadly
