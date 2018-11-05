@@ -24,12 +24,66 @@ It's very chic, in Silicon Valley, to talk about embracing failure and "failing 
 What I think that really means is that you should be designing experimental projects so that it is quickly clear whether or no
 
 ## Current State of Data Journalism
-A round up of projects and tools that journalists are using now to do really smart data projects. We'll look at some great data journalism, talk about what makes it work,
+A round up of projects and tools that journalists are using now to do really smart data projects. We'll look at some great data journalism, talk about what makes it work.
+
+* The best projects have a pretty strong "by hand" component.
+
+### Mobile First
+After a good run of ornate and immersive data visualizations newsrooms are starting to realize that if it won't show up in your mobile app it might not be worth the effort.
+
+### Show your work
+
+Baltimore Sun:
+
+https://twitter.com/christinezhang/status/1055133008930463744 / https://github.com/baltimore-sun-data/2018-shootings-analysis
+
+https://github.com/baltimore-sun-data/bridge-data
+
+https://twitter.com/statwonk/status/1054019909116706821
+
+Tools: Python and R under the hood. Static visualizations are generated in R and then fine tuned in illustrator.
+
+And some stories are about not having data at all https://www.baltimoresun.com/news/maryland/politics/bs-md-ghost-precincts-20181030-story.html
+
+And subscribers love it: https://twitter.com/vees/status/1051866074625572865
+
+
+### Promoting Civic engagement
+https://www.bythebay.cool/my-digital-ballot/
+
+### Election maps
+https://www.nytimes.com/2018/11/05/business/media/election-night-maps-tv.html
+
+### Big Immersive Experiences
+https://www.nytimes.com/interactive/2018/10/23/us/metoo-replacements.html
+
+### Small Multiples
+https://www.cjr.org/tow_center/propublica-lena-groeger-data-visualization-design.php
+
+
+**Projects that I Like**
+https://projects.propublica.org/graphics/election-day-voting-guide#check-registration
+
 
 **What We Teach in J200**
+* Basic Spreadsheet skills
+* Open Refine (though Workbench does much of the same)
+* Datawrapper for charts and Maps
+* Google Fusion Tables
 
 **What We Teach in full semester courses**
+* CSVkit for quick shuffles
+* R for big analysis (a lot of folks stick with Python's data analysis tools)
+* QGIS and PostGIS for geographical analysis
+* Mapbox for storytelling in Maps
+* D3 and Vega for making charts.
 
+
+### Keeping Up
+
+Source is a fantastic resource: https://source.opennews.org/
+
+https://www.cjr.org/tow_center/propublica-lena-groeger-data-visualization-design.php
 
 ## Revenue Streams, Audience, and Membership
 
