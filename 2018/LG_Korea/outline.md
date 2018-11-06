@@ -61,11 +61,18 @@ https://www.nytimes.com/interactive/2018/10/23/us/metoo-replacements.html
 https://www.cjr.org/tow_center/propublica-lena-groeger-data-visualization-design.php
 
 
+### Population distortion
+
+http://www.ohmynews.com/NWS_Web/View/at_pg_w.aspx?CNTN_CD=A0002200574 (20대 국회의원 총선거 개표결과/ 2016년 Results of the general election of the 20th National Assembly)
+
+https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/2016_South_Korean_election_constituency_results_no_llang.svg/253px-2016_South_Korean_election_constituency_results_no_llang.svg.png
+
 **Projects that I Like**
 https://projects.propublica.org/graphics/election-day-voting-guide#check-registration
 
 
 **What We Teach in J200**
+* Ethics and Lies; we have access to enormous amounts of public data.
 * Basic Spreadsheet skills
 * Open Refine (though Workbench does much of the same)
 * Datawrapper for charts and Maps
@@ -78,12 +85,16 @@ https://projects.propublica.org/graphics/election-day-voting-guide#check-registr
 * Mapbox for storytelling in Maps
 * D3 and Vega for making charts.
 
+**Community**
+The best tools is nothing without support: you're always better off using a tool that other journalists in your community are familiar with than trying to learn a cutting edge tool all by yourself. 
 
 ### Keeping Up
 
 Source is a fantastic resource: https://source.opennews.org/
 
 https://www.cjr.org/tow_center/propublica-lena-groeger-data-visualization-design.php
+
+
 
 ## Revenue Streams, Audience, and Membership
 
